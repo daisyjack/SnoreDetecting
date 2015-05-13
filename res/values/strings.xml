@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">打鼾监测</string>
+    <string name="doc_button">记录</string>
+    <string name="running_started">运行中</string>
+    <string name="running_paused">暂停中</string>
+    <string name="running_stopped">停止中</string>
+    <string name="start_button">开始监测</string>
+    <string name="pause_button">暂停监测</string>
+    <string name="stop_button">停止监测</string>
+</resources>

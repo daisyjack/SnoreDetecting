@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:background="@drawable/background" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<TextView
+	    android:layout_gravity="center_horizontal" 
+	    android:textSize="40.0sp" 
+	    android:textColor="@color/black"
+		android:gravity="center" 
+		android:id="@+id/running_state"
+		android:background="@drawable/running"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20dp"/>
+	<TextView
+	    android:text="累计打鼾"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:textSize="40sp"
+	    android:gravity="center"/>
+	<TextView 
+	    android:id="@+id/time"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:textSize="20sp"
+	    android:gravity="center"/>	
+	
+	<RelativeLayout android:id="@+id/buttonlinearLayout"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_marginTop="5.0dp">
+		<Button android:id="@+id/start_button" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="50dp"
+			android:text="@string/start_button" />
+		
+		<Button android:id="@+id/stop_button" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="50dp" 
+			android:text="@string/stop_button" />
+	</RelativeLayout>
+</LinearLayout>
