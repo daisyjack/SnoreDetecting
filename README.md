@@ -1,1 +1,1 @@
-安卓打鼾监测软件
+snore detecting for android
